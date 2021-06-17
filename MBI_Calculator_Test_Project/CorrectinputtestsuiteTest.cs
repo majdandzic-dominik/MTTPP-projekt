@@ -35,6 +35,7 @@ namespace MBI_Calculator_Test_Project
         [Test]
         public void normalWeightInputTest()
         {
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             // Test name: normal_weight_input_test
             // Step # | name | target | value
             // 1 | open | /health/educational/lose_wt/BMI/bmi-m.htm | 
@@ -64,6 +65,7 @@ namespace MBI_Calculator_Test_Project
         [Test]
         public void obeseInputTest()
         {
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             // Test name: obese_input_test
             // Step # | name | target | value
             // 1 | open | /health/educational/lose_wt/BMI/bmi-m.htm | 
@@ -93,6 +95,7 @@ namespace MBI_Calculator_Test_Project
         [Test]
         public void overweightInputTest()
         {
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             // Test name: overweight_input_test
             // Step # | name | target | value
             // 1 | open | /health/educational/lose_wt/BMI/bmi-m.htm | 
@@ -120,6 +123,7 @@ namespace MBI_Calculator_Test_Project
         [Test]
         public void underWeightInputTest()
         {
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             // Test name: underweight_input_test
             // Step # | name | target | value
             // 1 | open | /health/educational/lose_wt/BMI/bmi-m.htm | 
@@ -170,6 +174,7 @@ namespace MBI_Calculator_Test_Project
         [Test]
         public void normalWeightInputTest()
         {
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             // Test name: normal_weight_input_test
             // Step # | name | target | value
             // 1 | open | /health/educational/lose_wt/BMI/bmi-m.htm | 
@@ -199,6 +204,7 @@ namespace MBI_Calculator_Test_Project
         [Test]
         public void obeseInputTest()
         {
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             // Test name: obese_input_test
             // Step # | name | target | value
             // 1 | open | /health/educational/lose_wt/BMI/bmi-m.htm | 
@@ -228,6 +234,7 @@ namespace MBI_Calculator_Test_Project
         [Test]
         public void overweightInputTest()
         {
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             // Test name: overweight_input_test
             // Step # | name | target | value
             // 1 | open | /health/educational/lose_wt/BMI/bmi-m.htm | 
@@ -255,6 +262,7 @@ namespace MBI_Calculator_Test_Project
         [Test]
         public void underWeightInputTest()
         {
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             // Test name: underweight_input_test
             // Step # | name | target | value
             // 1 | open | /health/educational/lose_wt/BMI/bmi-m.htm | 

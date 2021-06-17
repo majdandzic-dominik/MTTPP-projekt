@@ -34,6 +34,7 @@ namespace MBI_Calculator_Test_Project
         [Test]
         public void heightInputEmptyTest()
         {
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             // Test name: height_input_empty_test
             // Step # | name | target | value
             // 1 | open | /health/educational/lose_wt/BMI/bmi-m.htm | 
@@ -58,6 +59,7 @@ namespace MBI_Calculator_Test_Project
         [Test]
         public void heightInputLetterTest()
         {
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             // Test name: height_input_letter_test
             // Step # | name | target | value
             // 1 | open | /health/educational/lose_wt/BMI/bmi-m.htm | 
@@ -78,6 +80,7 @@ namespace MBI_Calculator_Test_Project
         [Test]
         public void heightInputZeroTest()
         {
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             // Test name: height_input_zero_test
             // Step # | name | target | value
             // 1 | open | /health/educational/lose_wt/BMI/bmi-m.htm | 
@@ -102,6 +105,7 @@ namespace MBI_Calculator_Test_Project
         [Test]
         public void weightInputEmptyTest()
         {
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             // Test name: weight_input_empty_test
             // Step # | name | target | value
             // 1 | open | /health/educational/lose_wt/BMI/bmi-m.htm | 
@@ -122,6 +126,7 @@ namespace MBI_Calculator_Test_Project
         [Test]
         public void weightInputLetterTest()
         {
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             // Test name: weight_input_letter_test
             // Step # | name | target | value
             // 1 | open | /health/educational/lose_wt/BMI/bmi-m.htm | 
@@ -148,6 +153,7 @@ namespace MBI_Calculator_Test_Project
         [Test]
         public void weightInputZeroTest()
         {
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             // Test name: weight_input_zero_test
             // Step # | name | target | value
             // 1 | open | /health/educational/lose_wt/BMI/bmi-m.htm | 
@@ -195,6 +201,7 @@ namespace MBI_Calculator_Test_Project
         [Test]
         public void heightInputEmptyTest()
         {
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             // Test name: height_input_empty_test
             // Step # | name | target | value
             // 1 | open | /health/educational/lose_wt/BMI/bmi-m.htm | 
@@ -219,6 +226,7 @@ namespace MBI_Calculator_Test_Project
         [Test]
         public void heightInputLetterTest()
         {
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             // Test name: height_input_letter_test
             // Step # | name | target | value
             // 1 | open | /health/educational/lose_wt/BMI/bmi-m.htm | 
@@ -239,6 +247,7 @@ namespace MBI_Calculator_Test_Project
         [Test]
         public void heightInputZeroTest()
         {
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             // Test name: height_input_zero_test
             // Step # | name | target | value
             // 1 | open | /health/educational/lose_wt/BMI/bmi-m.htm | 
@@ -263,6 +272,7 @@ namespace MBI_Calculator_Test_Project
         [Test]
         public void weightInputEmptyTest()
         {
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             // Test name: weight_input_empty_test
             // Step # | name | target | value
             // 1 | open | /health/educational/lose_wt/BMI/bmi-m.htm | 
@@ -283,6 +293,7 @@ namespace MBI_Calculator_Test_Project
         [Test]
         public void weightInputLetterTest()
         {
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             // Test name: weight_input_letter_test
             // Step # | name | target | value
             // 1 | open | /health/educational/lose_wt/BMI/bmi-m.htm | 
@@ -309,6 +320,7 @@ namespace MBI_Calculator_Test_Project
         [Test]
         public void weightInputZeroTest()
         {
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             // Test name: weight_input_zero_test
             // Step # | name | target | value
             // 1 | open | /health/educational/lose_wt/BMI/bmi-m.htm | 
